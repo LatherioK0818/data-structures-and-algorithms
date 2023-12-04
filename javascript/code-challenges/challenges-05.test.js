@@ -172,7 +172,7 @@ const hasChildrenValues = (arr, character) => {
   const hasChildren = characterObj && 'children' in characterObj && Object.values(characterObj.children).length > 0;
 
   return hasChildren;
-};git
+};
 
 
 /* ------------------------------------------------------------------------------------------------
