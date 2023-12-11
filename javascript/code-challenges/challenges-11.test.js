@@ -72,7 +72,11 @@ For example, 'abcdefg' returns 'bdf'
 ------------------------------------------------------------------------------------------------ */
 
 const onlyOddChars = (str) => {
-  // Solution code here...
+  if (!str || typeof str !== 'string' || str.length === 0) {
+    return ''; // Return an empty string for an invalid input or empty string
+  }
+
+  return str.split('').filter((char, index) => index % 2 !== 0).join('');
 };
 
 /* ------------------------------------------------------------------------------------------------
