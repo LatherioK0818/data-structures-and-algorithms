@@ -39,8 +39,13 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 ------------------------------------------------------------------------------------------------ */
 
 const findHappiness = (arr) => {
-  // Solution code here...
+  if (!arr || arr.length === 0) {
+    return []; // Return an empty array for an empty input or invalid array
+  }
+
+  return arr.filter((str) => str.includes(":)"));
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
