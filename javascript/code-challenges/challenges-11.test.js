@@ -22,9 +22,12 @@ Write a function named firstLetters that takes in an array of strings and return
 
 For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 'w', 'w', ':']
 ------------------------------------------------------------------------------------------------ */
-
 const firstLetters = (arr) => {
-  // Solution code here...
+  if (!arr || arr.length === 0) {
+    return []; // Return an empty array for an empty input or invalid array
+  }
+
+  return arr.map((str) => str.charAt(0));
 };
 
 /* ------------------------------------------------------------------------------------------------
