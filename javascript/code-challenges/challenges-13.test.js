@@ -111,8 +111,11 @@ Write a function named containsWorld that takes in a string or number of any len
 ------------------------------------------------------------------------------------------------ */
 
 const containsWorld = (input) => {
-  // Solution code here...
+  // Use a regular expression to check if the input contains the word 'world' in lowercase
+  const pattern = /\bworld\b/;
+  return pattern.test(input.toString());
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
