@@ -126,8 +126,11 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  // Solution code here...
+  // Use a regular expression to match words starting with a capital letter
+  const pattern = /\b[A-Z][a-z]*\b/g;
+  return str.match(pattern) || [];
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
