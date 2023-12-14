@@ -139,7 +139,9 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  // Solution code here...
+  // Use a regular expression to match cities starting with letters A to J
+  const pattern = /^[A-J]/i;
+  return arr.filter(city => pattern.test(city));
 };
 
 /* ------------------------------------------------------------------------------------------------
