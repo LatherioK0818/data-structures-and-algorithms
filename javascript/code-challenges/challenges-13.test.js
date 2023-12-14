@@ -97,8 +97,11 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const isNum = (input) => {
-  // Solution code here...
+  // Use a regular expression to check if the input contains a number
+  const pattern = /\d/;
+  return pattern.test(input);
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
