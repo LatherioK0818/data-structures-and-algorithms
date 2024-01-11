@@ -1,0 +1,732 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 1,
+    "storeVersion": 4,
+    "recordVersions": {
+      "asset": {
+        "version": 1,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "image": 3,
+          "video": 3,
+          "bookmark": 1
+        }
+      },
+      "camera": {
+        "version": 1
+      },
+      "document": {
+        "version": 2
+      },
+      "instance": {
+        "version": 22
+      },
+      "instance_page_state": {
+        "version": 5
+      },
+      "page": {
+        "version": 1
+      },
+      "shape": {
+        "version": 3,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "group": 0,
+          "text": 1,
+          "bookmark": 2,
+          "draw": 1,
+          "geo": 8,
+          "note": 5,
+          "line": 1,
+          "frame": 0,
+          "arrow": 2,
+          "highlight": 0,
+          "embed": 4,
+          "image": 3,
+          "video": 2
+        }
+      },
+      "instance_presence": {
+        "version": 5
+      },
+      "pointer": {
+        "version": 1
+      }
+    }
+  },
+  "records": [
+    {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "id": "pointer:pointer",
+      "typeName": "pointer",
+      "x": 2292.1874389648438,
+      "y": 924.3728308677673,
+      "lastActivityTimestamp": 1704958788014,
+      "meta": {}
+    },
+    {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "x": 1442.5000610351562,
+      "y": 290.99167108535767,
+      "z": 0.25,
+      "meta": {},
+      "id": "camera:page:page",
+      "typeName": "camera"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:page:page",
+      "pageId": "page:page",
+      "typeName": "instance_page_state"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {
+        "tldraw:geo": "rectangle",
+        "tldraw:horizontalAlign": "start",
+        "tldraw:size": "xl",
+        "tldraw:color": "light-blue",
+        "tldraw:fill": "semi"
+      },
+      "brush": null,
+      "scribbles": [],
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1381.6666259765625,
+        "h": 605
+      },
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "canMoveCamera": true,
+      "isFocused": true,
+      "devicePixelRatio": 1.2000000476837158,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": true,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "id": "instance:instance",
+      "currentPageId": "page:page",
+      "typeName": "instance"
+    },
+    {
+      "x": -444.84373474121094,
+      "y": -116.84896850585938,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:MXvSmWxUgGn4KGHsmMaeX",
+      "type": "geo",
+      "props": {
+        "w": 728.6457977294923,
+        "h": 154.6354217529297,
+        "geo": "rectangle",
+        "color": "blue",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a2",
+      "typeName": "shape"
+    },
+    {
+      "x": -366.7760925292969,
+      "y": -56.145843505859375,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:DwQr44A5uIlHs8tjzdye3",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "l",
+        "w": 490.53125,
+        "text": "Step 1: Define the Problem",
+        "font": "draw",
+        "align": "middle",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "a3",
+      "typeName": "shape"
+    },
+    {
+      "x": 330.15631103515625,
+      "y": -106.84895324707031,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:fR1Alx35Oa-CkX6tGxPuH",
+      "type": "geo",
+      "props": {
+        "w": 595.9896240234375,
+        "h": 152.31768798828125,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "l",
+        "font": "draw",
+        "text": "Step 2: Identify Test Cases",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a4",
+      "typeName": "shape"
+    },
+    {
+      "x": 331.45855712890625,
+      "y": 36.770843505859375,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:_DrDWUFPV21mH5Y95ox01",
+      "type": "geo",
+      "props": {
+        "w": 587,
+        "h": 768.9140625,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "l",
+        "font": "draw",
+        "text": "Sample Test Case:\n\nInput: [2, 4, 6, -8], 5\nExpected Output: [2, 4, 5, 6, -8]\nAdditional Test Cases:\n\nEdge Case (Empty Input):\nInput: [], 7\nExpected Output: [7]\nTest Case with Negative Numbers:\nInput: [-1, -2, -3, -4], -5\nExpected Output: [-1, -2, -5, -3, -4]\nTest Case with Large Array:\nInput: [1, 2, 3, 4, 5, 6, 7, 8, 9], 99\nExpected Output: [1, 2, 3, 4, 99, 5, 6, 7, 8, 9]\nFunction Definition:\n\ndef insertShiftArray(arr, value):\n    # Implementation of the function goes here",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a5",
+      "typeName": "shape"
+    },
+    {
+      "x": -431.51048278808594,
+      "y": 33.151031494140625,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:IkX0ZIUNM-N24qr17w5Da",
+      "type": "geo",
+      "props": {
+        "w": 715.9973754882812,
+        "h": 523.9843444824219,
+        "geo": "rectangle",
+        "color": "blue",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "l",
+        "font": "draw",
+        "text": "Problem Statement: The task is to write a function called insertShiftArray that takes an array and a value to be added, and it should insert the value in the middle of the array at the appropriate index.\n\nDomain Specific Words & Phrases:\n\ninsertShiftArray: The name of the function.\n\narray: The input array where the value needs to be inserted.\n\nvalue: The value to be inserted in the array.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a6",
+      "typeName": "shape"
+    },
+    {
+      "x": -457.91656494140625,
+      "y": 901.0416259765625,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:5jdObERM3XMDIPLtbZHUU",
+      "type": "geo",
+      "props": {
+        "w": 733.9921875,
+        "h": 515.9375,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "l",
+        "font": "draw",
+        "text": "Start\n\n|\nv\n\nInitialize new_array with length of arr + 1\n\n|\nv\n\nCalculate middle_index = (len(arr) + 1) // 2\n\n|\nv\n\nLoop for i in range(middle_index):\n|\nv\nCopy arr[i] to new_array[i]\n\n|\nv\n\nInsert value at new_array[middle_index]\n\n|\nv\n\nLoop for i in range(middle_index, len(arr)):\n|\nv\nCopy arr[i] to new_array[i + 1]\n\n|\nv\n\nReturn new_array\n\n|\nv\n\nEnd",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 989.890625,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a7",
+      "typeName": "shape"
+    },
+    {
+      "x": -459.16668701171875,
+      "y": 682.5,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:hpntZMQe2XZmWB0ZSXvJL",
+      "type": "geo",
+      "props": {
+        "w": 728.6458740234375,
+        "h": 221.302001953125,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "l",
+        "font": "draw",
+        "text": "",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a8",
+      "typeName": "shape"
+    },
+    {
+      "x": -397.16668701171875,
+      "y": 768.203125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:uqlyAbRNeiSKR6ayeFOy1",
+      "type": "text",
+      "props": {
+        "color": "orange",
+        "size": "l",
+        "w": 543.7734375,
+        "text": "Step 3: Visualize the Solution",
+        "font": "draw",
+        "align": "start",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "a9",
+      "typeName": "shape"
+    },
+    {
+      "x": 312.18756103515625,
+      "y": 814.53125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:twP5QvdWbhr7gWFxIfXOT",
+      "type": "geo",
+      "props": {
+        "w": 698.645751953125,
+        "h": 227.96875,
+        "geo": "rectangle",
+        "color": "violet",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "Step 4: Plan the Algorithm",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aA",
+      "typeName": "shape"
+    },
+    {
+      "x": 318.85406494140625,
+      "y": 1047.864501953125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:v5phuceco8WXRsnnA73Ry",
+      "type": "geo",
+      "props": {
+        "w": 702,
+        "h": 441.3021240234375,
+        "geo": "rectangle",
+        "color": "violet",
+        "labelColor": "black",
+        "fill": "semi",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "Algorithm Steps:\n\nCalculate the middle index of the array.\nCreate a new array with a length of the original array plus one.\nCopy the elements from the original array to the new array until the middle index.\nInsert the new value at the middle index.\nCopy the remaining elements from the original array to the new array.\nReturn the new array as the result.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 152.169189453125,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aB",
+      "typeName": "shape"
+    },
+    {
+      "x": 1100.8333129882812,
+      "y": 42.49993896484375,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:W5LeR56CDGc_18vYYQKm-",
+      "type": "geo",
+      "props": {
+        "w": 897.3125,
+        "h": 862.6040649414062,
+        "geo": "rectangle",
+        "color": "red",
+        "labelColor": "black",
+        "fill": "semi",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "def insertShiftArray(arr, value):\n    middle_index = (len(arr) + 1) // 2\n    new_array = [0] * (len(arr) + 1)\n\n    for i in range(middle_index):\n        new_array[i] = arr[i]\n\n    new_array[middle_index] = value\n\n    for i in range(middle_index, len(arr)):\n        new_array[i + 1] = arr[i]\n\n    return new_array",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aC",
+      "typeName": "shape"
+    },
+    {
+      "x": 1097.3960571289062,
+      "y": -170.98956298828125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:T61YXqVmVaNqie4_VG96t",
+      "type": "geo",
+      "props": {
+        "w": 902.6040039062499,
+        "h": 237.239501953125,
+        "geo": "rectangle",
+        "color": "red",
+        "labelColor": "black",
+        "fill": "semi",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "Step 5: Code",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aD",
+      "typeName": "shape"
+    },
+    {
+      "x": 1228.8540649414062,
+      "y": 1097.864501953125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:8PIC9X9aRRl2plpYDOFOO",
+      "type": "geo",
+      "props": {
+        "w": 822,
+        "h": 631.302001953125,
+        "geo": "rectangle",
+        "color": "light-blue",
+        "labelColor": "black",
+        "fill": "semi",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "Time Complexity: O(n) - Since we need to copy all elements from the original array to the new array.\nSpace Complexity: O(n) - Due to the additional space required for the new array.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aE",
+      "typeName": "shape"
+    },
+    {
+      "x": 1222.8128051757812,
+      "y": 1037.13525390625,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:WETlZu8NN-MZJEqeftx3O",
+      "type": "geo",
+      "props": {
+        "w": 830.625,
+        "h": 205.9376220703125,
+        "geo": "rectangle",
+        "color": "light-blue",
+        "labelColor": "black",
+        "fill": "semi",
+        "dash": "draw",
+        "size": "xl",
+        "font": "draw",
+        "text": "Step 6: Verify",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aF",
+      "typeName": "shape"
+    },
+    {
+      "x": -22.50006103515625,
+      "y": 565.6749701499939,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:WGPGnOFzEpGOzx_HMV3VF",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a5V",
+      "props": {
+        "dash": "draw",
+        "size": "xl",
+        "fill": "semi",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": 14.877433282563505,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:_DrDWUFPV21mH5Y95ox01",
+          "normalizedAnchor": {
+            "x": 0.176035996393207,
+            "y": 0.7822828684409244
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 322.18743896484375,
+      "y": 704.3728919029236,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:6Vo7kWTqQlqSufJoeuFZt",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a7V",
+      "props": {
+        "dash": "draw",
+        "size": "xl",
+        "fill": "semi",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": 38.18592665077148,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:5jdObERM3XMDIPLtbZHUU",
+          "normalizedAnchor": {
+            "x": 0.7385407353301189,
+            "y": 0.04070846723705923
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 295.52069091796875,
+      "y": 1797.7060828208923,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:m2jsThYb5Cl38VzmyLBXN",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aG",
+      "props": {
+        "dash": "draw",
+        "size": "xl",
+        "fill": "semi",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": 144.07080519595124,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": 288.6458740234375,
+          "y": -135.364501953125
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 948.8539428710938,
+      "y": 807.7062048912048,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:yTSbAVnhesu5mClYUb3ZE",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aCV",
+      "props": {
+        "dash": "draw",
+        "size": "xl",
+        "fill": "semi",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": -59.26256794380932,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:W5LeR56CDGc_18vYYQKm-",
+          "normalizedAnchor": {
+            "x": 0.026003348758445358,
+            "y": 0.6026423060890524
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1315.5206909179688,
+      "y": 911.0395789146423,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:EQeyAJprIoAVyPjOFp-83",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aH",
+      "props": {
+        "dash": "draw",
+        "size": "xl",
+        "fill": "semi",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": 31.979248046875,
+          "y": 124.6353759765625
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    }
+  ]
+}
