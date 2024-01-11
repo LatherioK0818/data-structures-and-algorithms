@@ -82,10 +82,11 @@ This approach is chosen for its simplicity and clarity, which are often advantag
 
 This approach is efficient in terms of time as it minimizes the number of operations needed to reverse the array. The trade-off is the additional space required for the new array, but this is often an acceptable compromise in many programming contexts where modifying the original data is not desired.
 
-## Solution
+
 ## Solution
 
 Here's how you can run the `reverseArray` function with examples to see it in action:
+[Reverse-Array](/reverse.py)
 
 ### Running the Code:
 
