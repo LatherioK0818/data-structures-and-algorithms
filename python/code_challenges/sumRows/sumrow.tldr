@@ -1,0 +1,695 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 1,
+    "storeVersion": 4,
+    "recordVersions": {
+      "asset": {
+        "version": 1,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "image": 3,
+          "video": 3,
+          "bookmark": 1
+        }
+      },
+      "camera": {
+        "version": 1
+      },
+      "document": {
+        "version": 2
+      },
+      "instance": {
+        "version": 22
+      },
+      "instance_page_state": {
+        "version": 5
+      },
+      "page": {
+        "version": 1
+      },
+      "shape": {
+        "version": 3,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "group": 0,
+          "text": 1,
+          "bookmark": 2,
+          "draw": 1,
+          "geo": 8,
+          "note": 5,
+          "line": 1,
+          "frame": 0,
+          "arrow": 2,
+          "highlight": 0,
+          "embed": 4,
+          "image": 3,
+          "video": 2
+        }
+      },
+      "instance_presence": {
+        "version": 5
+      },
+      "pointer": {
+        "version": 1
+      }
+    }
+  },
+  "records": [
+    {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "id": "pointer:pointer",
+      "typeName": "pointer",
+      "x": 374.94769287109375,
+      "y": 861.4322204589844,
+      "lastActivityTimestamp": 1705467834323,
+      "meta": {}
+    },
+    {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "x": 319.06268310546875,
+      "y": 272.9166564941406,
+      "z": 0.5,
+      "meta": {},
+      "id": "camera:page:page",
+      "typeName": "camera"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:page:page",
+      "pageId": "page:page",
+      "typeName": "instance_page_state"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {
+        "tldraw:geo": "rectangle",
+        "tldraw:horizontalAlign": "start",
+        "tldraw:fill": "solid",
+        "tldraw:color": "black"
+      },
+      "brush": null,
+      "scribbles": [],
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1381.6666259765625,
+        "h": 745.8333129882812
+      },
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "canMoveCamera": true,
+      "isFocused": true,
+      "devicePixelRatio": 1.2000000476837158,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": true,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "id": "instance:instance",
+      "currentPageId": "page:page",
+      "typeName": "instance"
+    },
+    {
+      "x": 228.671875,
+      "y": 148.0078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:h9USUjRznaxwR8ISdjaF8",
+      "type": "geo",
+      "props": {
+        "w": 352.9947509765625,
+        "h": 223.65884399414062,
+        "geo": "rectangle",
+        "color": "violet",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Problem  Domain: \n\nWrite a function to calculate the sum of each row in a matrix and return an array of these sums.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a1",
+      "typeName": "shape"
+    },
+    {
+      "x": 580.0260009765625,
+      "y": 268.0078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:bX8kzokDElD4crUeXw3uz",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a2",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "binding",
+          "boundShapeId": "shape:h9USUjRznaxwR8ISdjaF8",
+          "normalizedAnchor": {
+            "x": 0.9953522679998464,
+            "y": 0.5365314326812122
+          },
+          "isPrecise": false,
+          "isExact": false
+        },
+        "end": {
+          "type": "point",
+          "x": 150.49481201171875,
+          "y": -3.0078125
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 724.6875,
+      "y": 127.49999237060547,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:qbMsQlNIV9nEJKJWaydaK",
+      "type": "geo",
+      "props": {
+        "w": 346.32806396484375,
+        "h": 221.9921875,
+        "geo": "rectangle",
+        "color": "black",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Test Case:\n\nTest Cases\nExample 1:\nInput: [[1, 2, 3], [4, 5, 6]]\nOutput: [6, 15]\nExample 2:\nInput: [[0, -1, 2], [-3, 4, 5]]\nOutput: [1, 6]\nEmpty Case:\nInput: []\nOutput: []",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 166.2578125,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a3",
+      "typeName": "shape"
+    },
+    {
+      "x": 720.0260009765625,
+      "y": 453.84112548828125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:BcVV27Am4ffTBomZmMcfg",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a5",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": -167.8385009765625,
+          "y": 69.4921875
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 644.1926879882812,
+      "y": 536.3411254882812,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:vurM0sDgv7m0m-hi3e7pN",
+      "type": "geo",
+      "props": {
+        "w": 439.9947814941406,
+        "h": 248.65887451171875,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Algorithm Description: \n\nIterate through each row of the matrix.\nFor each row, initialize a sum variable to 0.\nAdd each element in the row to the sum.\nAfter summing a row, push the sum to a totals array.\nReturn the totals array at the end.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 109.90362548828125,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a6",
+      "typeName": "shape"
+    },
+    {
+      "x": 1130.2083129882812,
+      "y": 129.94790649414062,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:A9piOz_z_JBHHJTip6F2C",
+      "type": "geo",
+      "props": {
+        "w": 380.62499999999994,
+        "h": 417.96875,
+        "geo": "rectangle",
+        "color": "blue",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Code:\n\n\ndef sum_rows(matrix):\n    totals = []\n    for row in matrix:\n        sum_row = sum(row)\n        totals.append(sum_row)\n    return totals",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a7",
+      "typeName": "shape"
+    },
+    {
+      "x": 1080.2083129882812,
+      "y": 766.6145324707031,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:TWMj6MjhR4RtOIhF9_aSd",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a8",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "binding",
+          "boundShapeId": "shape:vurM0sDgv7m0m-hi3e7pN",
+          "normalizedAnchor": {
+            "x": 0.9909563552535142,
+            "y": 0.6422127438938033
+          },
+          "isPrecise": false,
+          "isExact": false
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:A9piOz_z_JBHHJTip6F2C",
+          "normalizedAnchor": {
+            "x": 0.16590815059991726,
+            "y": 1
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1266.8750610351562,
+      "y": 646.6145324707031,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:O3-HdLARFBMY2f1rvSimV",
+      "type": "geo",
+      "props": {
+        "w": 605.9973754882812,
+        "h": 331.3021240234375,
+        "geo": "rectangle",
+        "color": "red",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Walk through the code with \nExample 1:\nMatrix: [[1, 2, 3], [4, 5, 6]]\nTotals: [6, 15]\nVerify that the code correctly calculates the sum for each row.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a9",
+      "typeName": "shape"
+    },
+    {
+      "x": 1433.5415649414062,
+      "y": 539.9479064941406,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:HEBAmhfhJ6zDDM-xkJCNp",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a7V",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "binding",
+          "boundShapeId": "shape:A9piOz_z_JBHHJTip6F2C",
+          "normalizedAnchor": {
+            "x": 0.7969346520935962,
+            "y": 0.9809345794392523
+          },
+          "isPrecise": false,
+          "isExact": false
+        },
+        "end": {
+          "type": "point",
+          "x": 48.64599609375,
+          "y": 104.6353759765625
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1577.8644409179688,
+      "y": 149.765625,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:iyEA_HRtfArL4TIBsmwMe",
+      "type": "geo",
+      "props": {
+        "w": 459.9947814941406,
+        "h": 402.3177185058594,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": " Big O Analysis:\n\nTime Complexity: O(n*m), where n is the number of rows and m is the number of columns.\nSpace Complexity: O(n), as the totals array size is dependent on the number of rows.",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aA",
+      "typeName": "shape"
+    },
+    {
+      "x": 1671.6143188476562,
+      "y": 636.4322814941406,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:BqtYYWyciwqZ7cQPXabvj",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aB",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "semi",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:iyEA_HRtfArL4TIBsmwMe",
+          "normalizedAnchor": {
+            "x": 0.3184546165416728,
+            "y": 0.9958572865796005
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 551.6143798828125,
+      "y": 611.4322814941406,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:48Di0FbmlMp2-ZBsa2G-4",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aC",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "semi",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": 87.65625,
+          "y": 53.984375
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 91.84898376464844,
+      "y": 420.5078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:ddNUxsIk4c8-ljxAti9DJ",
+      "type": "geo",
+      "props": {
+        "w": 456.1718292236328,
+        "h": 292.82550048828125,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Visualization:",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a4",
+      "typeName": "shape"
+    },
+    {
+      "x": 292.60400390625,
+      "y": 483.7499694824219,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:-46kLVXBKJ56tpYet9PPg",
+      "type": "geo",
+      "props": {
+        "w": 217.65625,
+        "h": 62.3177490234375,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aD",
+      "typeName": "shape"
+    },
+    {
+      "x": 320.28106689453125,
+      "y": 503.5676784515381,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:3ksUovreRm63o3uRzkwiQ",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 91.53385162353516,
+        "text": "1 , 2 , 3",
+        "font": "draw",
+        "align": "start",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "aE",
+      "typeName": "shape"
+    },
+    {
+      "x": 292.60394287109375,
+      "y": 552.0832824707031,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:LJWW0cujdzUWU1skrE7Zw",
+      "type": "geo",
+      "props": {
+        "w": 214.32293701171875,
+        "h": 61.6875,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "4, 5 , 6,",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aF",
+      "typeName": "shape"
+    },
+    {
+      "x": 288.593505859375,
+      "y": 623.3854064941406,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:pebQvAL6GgreVcLrjla_c",
+      "type": "geo",
+      "props": {
+        "w": 215.31256103515625,
+        "h": 74.36981201171875,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "solid",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "6, 15",
+        "align": "start",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aG",
+      "typeName": "shape"
+    }
+  ]
+}
