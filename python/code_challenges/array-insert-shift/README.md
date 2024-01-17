@@ -43,4 +43,5 @@ value2 = 16
 result2 = insertShiftArray(arr2, value2)
 print(result2)  # Output: [42, 8, 15, 16, 23, 42]
 ```
+
 [code link](https://github.com/LatherioK0818/data-structures-and-algorithms/pull/18)
