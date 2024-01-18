@@ -8,12 +8,14 @@ The challenge was to implement a Singly Linked List in Python. In a singly linke
 
 ## Whiteboard Process
 
+![Alt text](image.png)
 
 ## Approach & Efficiency
 
 ### Approach
 
 The implementation involves two classes:
+
 - **Node**: Represents each element in the list with a `value` and a reference to the `next` node.
 - **LinkedList**: Manages the list, with methods for insertion (`insert`), searching (`includes`), and representation (`to_string`).
 
