@@ -1,0 +1,587 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 1,
+    "storeVersion": 4,
+    "recordVersions": {
+      "asset": {
+        "version": 1,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "image": 3,
+          "video": 3,
+          "bookmark": 1
+        }
+      },
+      "camera": {
+        "version": 1
+      },
+      "document": {
+        "version": 2
+      },
+      "instance": {
+        "version": 23
+      },
+      "instance_page_state": {
+        "version": 5
+      },
+      "page": {
+        "version": 1
+      },
+      "shape": {
+        "version": 3,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "group": 0,
+          "text": 1,
+          "bookmark": 2,
+          "draw": 1,
+          "geo": 8,
+          "note": 5,
+          "line": 1,
+          "frame": 0,
+          "arrow": 2,
+          "highlight": 0,
+          "embed": 4,
+          "image": 3,
+          "video": 2
+        }
+      },
+      "instance_presence": {
+        "version": 5
+      },
+      "pointer": {
+        "version": 1
+      }
+    }
+  },
+  "records": [
+    {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "id": "pointer:pointer",
+      "typeName": "pointer",
+      "x": 1968.0123901367188,
+      "y": -11.480033874511719,
+      "lastActivityTimestamp": 1705652495705,
+      "meta": {}
+    },
+    {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "x": 5018.749694824219,
+      "y": 612.4999694824219,
+      "z": 0.1,
+      "meta": {},
+      "id": "camera:page:page",
+      "typeName": "camera"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:page:page",
+      "pageId": "page:page",
+      "typeName": "instance_page_state"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {
+        "tldraw:geo": "rectangle",
+        "tldraw:horizontalAlign": "start",
+        "tldraw:verticalAlign": "start",
+        "tldraw:fill": "pattern",
+        "tldraw:color": "green"
+      },
+      "brush": null,
+      "scribbles": [],
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1115.2777099609375,
+        "h": 602.7777709960938
+      },
+      "insets": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "canMoveCamera": true,
+      "isFocused": true,
+      "devicePixelRatio": 1.440000057220459,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": true,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "id": "instance:instance",
+      "currentPageId": "page:page",
+      "typeName": "instance"
+    },
+    {
+      "x": 53.47222137451172,
+      "y": 99.99998474121094,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:Al5dUJlMBOBawwwJlgsh-",
+      "type": "geo",
+      "props": {
+        "w": 594.9990844726562,
+        "h": 412.2084655761719,
+        "geo": "rectangle",
+        "color": "light-blue",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Problem Statement: \nImplement a singly linked list in Python with methods to insert, append, insert before, and insert after nodes.\nDomain-Specific Terms:\nNode: An element in a linked list containing a value and a reference to the next node.\nLinkedList: A linear collection of node objects, connected through \"next\" references.\nHead: The first node in a linked list.",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a1",
+      "typeName": "shape"
+    },
+    {
+      "x": 641.6232299804688,
+      "y": 385.7420654296875,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:gc15s43TyP1nKvBfH4VDc",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a2",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "pattern",
+        "color": "light-blue",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "binding",
+          "boundShapeId": "shape:Al5dUJlMBOBawwwJlgsh-",
+          "normalizedAnchor": {
+            "x": 0.9884906110859505,
+            "y": 0.6931979921593201
+          },
+          "isPrecise": false,
+          "isExact": false
+        },
+        "end": {
+          "type": "point",
+          "x": 360.460205078125,
+          "y": 197.59124755859375
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1030.5123901367188,
+      "y": 524.6310729980469,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:143pe3aYMo9hU_kpkkN0O",
+      "type": "geo",
+      "props": {
+        "w": 1019.5306396484375,
+        "h": 471.57104492187506,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a3",
+      "typeName": "shape"
+    },
+    {
+      "x": 1101.1986999511719,
+      "y": 620.4427490234375,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:TPjSNeU0ZffbqWfjNUaQJ",
+      "type": "text",
+      "props": {
+        "color": "green",
+        "size": "m",
+        "w": 885.1019897460938,
+        "text": "Step 2: Identify Test Cases\r\nSample Test Case: Provided by default.\r\nNew Test Cases:\r\nEmpty List: Insert into an empty list.\r\nEdge Case: Insert before/after a node at the beginning/end of the list.\r\nWrong Case: Insert before/after a non-existent value.\r\nFunction Definition: Already provided in the code.\r\nChosen Test Case for White Boarding: Inserting into an empty list.",
+        "font": "draw",
+        "align": "start",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "a4",
+      "typeName": "shape"
+    },
+    {
+      "x": 1147.265625,
+      "y": 1249.3487854003906,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:UuilVHEILtN2n7-S4JmaT",
+      "type": "geo",
+      "props": {
+        "w": 976.5628051757811,
+        "h": 446.94000244140625,
+        "geo": "rectangle",
+        "color": "orange",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Step 3: Visualize the Solution",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a5",
+      "typeName": "shape"
+    },
+    {
+      "x": 1265.6791687011719,
+      "y": 1375.0540466308594,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:RdQCQH0n8RbnXKl2sC80v",
+      "type": "text",
+      "props": {
+        "color": "green",
+        "size": "m",
+        "w": 764.4747924804688,
+        "text": "Input at the Top: Empty LinkedList and values to be inserted.\r\nOutput at the Bottom: LinkedList with inserted values.\r\nAlgorithmic Steps:\r\nCheck if the list is empty.\r\nCreate a new node.\r\nAdjust the \"next\" references to include the new node.",
+        "font": "draw",
+        "align": "start",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "a6",
+      "typeName": "shape"
+    },
+    {
+      "x": 1718.0123901367188,
+      "y": 1024.6310729980469,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:NYICSjRKo6lEL83Cj_Ann",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a5V",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "pattern",
+        "color": "green",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": -0.6512451171875,
+          "y": 204.5355224609375
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": -1086.4147338867188,
+      "y": 1364.9087829589844,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:M27DaOWJBqQZY9DItoS0G",
+      "type": "geo",
+      "props": {
+        "w": 1502.126708984375,
+        "h": 444.68298339843756,
+        "geo": "rectangle",
+        "color": "blue",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "a7",
+      "typeName": "shape"
+    },
+    {
+      "x": -1015.3483276367188,
+      "y": 1435.2484283447266,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:VsIx5V_S3VRql8VutsqJ-",
+      "type": "text",
+      "props": {
+        "color": "blue",
+        "size": "m",
+        "w": 1301.5299072265625,
+        "text": "Step 4: Plan the Algorithm\r\nIntermediate Data Structures: Nodes and their \"next\" references.\r\nAlgorithm Steps in Plain Language:\r\nCreate a new node with the given value.\r\nFor insert, set this node's next reference to the current head, and update the head.\r\nFor append, traverse to the end of the list and add the node.\r\nFor insert_before and insert_after, find the target node and adjust references to include the new node.",
+        "font": "draw",
+        "align": "start",
+        "autoSize": true,
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "a8",
+      "typeName": "shape"
+    },
+    {
+      "x": 1138.4547729492188,
+      "y": 1391.7968444824219,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:Gopt4dzjthhdeRXxrU6j8",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a9",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "pattern",
+        "color": "orange",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": -714.149169921875,
+          "y": 184.592041015625
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": -144.87847900390625,
+      "y": 1897.3523864746094,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:OUAccKb9Og26aaSkvJVEH",
+      "type": "geo",
+      "props": {
+        "w": 1175.4027709960938,
+        "h": 2378.169677734375,
+        "geo": "rectangle",
+        "color": "violet",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Step 5: Code\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n\nclass LinkedList:\n    def __init__(self):\n        self.head = None\n\n    def insert(self, value):\n        new_node = Node(value)\n        new_node.next = self.head\n        self.head = new_node\n\n    def append(self, new_value):\n        new_node = Node(new_value)\n        if not self.head:\n            self.head = new_node\n            return\n\n        current = self.head\n        while current.next:\n            current = current.next\n        current.next = new_node\n\n    def insert_before(self, target_value, new_value):\n        # Create a new node with the specified value\n        new_node = Node(new_value)\n\n        # Check if the linked list is empty\n        if not self.head:\n            raise TargetError(\"Cannot insert before in an empty list\")\n\n        # Check if the target value is at the beginning of the list\n        if self.head.value == target_value:\n            new_node.next = self.head\n            self.head = new_node\n            return\n\n        # Traverse the linked list to find the node with the target value\n        current = self.head\n        while current.next and current.next.value != target_value:\n            current = current.next\n\n        # If the target value is not found in the list\n        if not current.next:\n            raise TargetError(f\"Target value '{target_value}' not found in the list\")\n\n        # Insert the new node before the node with the target value\n        new_node.next = current.next\n        current.next = new_node\n\n\n    def insert_after(self, target_value, new_value):\n            new_node = Node(new_value)\n            if not self.head:\n                raise TargetError(\"Cannot insert after in an empty list\")\n\n            current = self.head\n            while current and current.value != target_value:\n                current = current.next\n\n            if not current:\n                raise TargetError(f\"Target value '{target_value}' not found in the list\")\n\n            new_node.next = current.next\n            current.next = new_node\n\n    def __str__(self):\n            result = \"\"\n            current = self.head\n            while current:\n                result += f\"{{ {current.value} }} -> \"\n                current = current.next\n            result += \"NULL\"\n            return result\n\nclass TargetError(Exception):\n        pass",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 29.6982421875,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aA",
+      "typeName": "shape"
+    },
+    {
+      "x": 205.12152099609375,
+      "y": 1800.1301574707031,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:392XsRtj437e8_KMv6Dsa",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aB",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "pattern",
+        "color": "violet",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "binding",
+          "boundShapeId": "shape:M27DaOWJBqQZY9DItoS0G",
+          "normalizedAnchor": {
+            "x": 0.859805133054356,
+            "y": 0.9787227997473401
+          },
+          "isPrecise": false,
+          "isExact": false
+        },
+        "end": {
+          "type": "binding",
+          "boundShapeId": "shape:OUAccKb9Og26aaSkvJVEH",
+          "normalizedAnchor": {
+            "x": 0.3542668609221646,
+            "y": 0.005201374440341391
+          },
+          "isPrecise": true,
+          "isExact": false
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1052.3436889648438,
+      "y": 3327.907928466797,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:FTNkjtSkaCpqtXsoK2yh8",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "aC",
+      "props": {
+        "dash": "draw",
+        "size": "m",
+        "fill": "pattern",
+        "color": "violet",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "type": "point",
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "type": "point",
+          "x": 324.73974609375,
+          "y": -323.7413330078125
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "text": "",
+        "font": "draw"
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 1363.4547729492188,
+      "y": 2464.019073486328,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:qQulz-0f8MhPVkz2he1PJ",
+      "type": "geo",
+      "props": {
+        "w": 691.9934692382812,
+        "h": 1073.4808959960938,
+        "geo": "rectangle",
+        "color": "green",
+        "labelColor": "black",
+        "fill": "pattern",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "Step 6: Verify\nTest Case Execution:\nUse test cases to step through the code and validate the logic.\nConfirm that nodes are correctly inserted in various scenarios.\nBig O Analysis:\nTime Complexity:\ninsert is O(1) as it adds at the beginning.\nappend, insert_before, and insert_after are O(n) in the worst case, as they may require traversing the entire list.\nSpace Complexity: O(1) for each operation since only a finite number of new nodes are created regardless of the list size.",
+        "align": "start",
+        "verticalAlign": "start",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:page",
+      "index": "aD",
+      "typeName": "shape"
+    }
+  ]
+}
