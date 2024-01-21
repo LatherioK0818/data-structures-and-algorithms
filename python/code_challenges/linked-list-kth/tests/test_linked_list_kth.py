@@ -40,7 +40,6 @@ class TestLinkedList(unittest.TestCase):
         self.ll.insert_after(2, 3)
         self.assertEqual(self.ll.tail.value, 3)
 
-    # ... any additional tests ...
 
 if __name__ == '__main__':
     unittest.main()
