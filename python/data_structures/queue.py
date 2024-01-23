@@ -13,66 +13,73 @@ class Node:
         self.value = value
         self.next = None
 
-class Stack:
+
+class Queue:
     """
-    Stack Class:
-    Represents a stack data structure using a linked list.
+    Queue Class:
+    Represents a queue data structure using a linked list.
 
     Attributes:
-    - top: The top node of the stack.
+    - front: The front node of the queue.
+    - rear: The rear node of the queue.
 
     Methods:
-    - push(value): Adds a new node with the given value to the top of the stack.
-    - pop(): Removes and returns the value from the top of the stack.
-    - peek(): Returns the value of the node located at the top of the stack without removing it.
-    - is_empty(): Returns True if the stack is empty, False otherwise.
+    - enqueue(value): Adds a new node with the given value to the back of the queue.
+    - dequeue(): Removes and returns the value from the front of the queue.
+    - peek(): Returns the value of the node located at the front of the queue without removing it.
+    - is_empty(): Returns True if the queue is empty, False otherwise.
     """
     def __init__(self):
-        self.top = None
+        self.front = None
+        self.rear = None
 
-    def push(self, value):
+    def enqueue(self, value):
         """
-        Adds a new node with the given value to the top of the stack.
+        Adds a new node with the given value to the back of the queue.
 
         Args:
-        - value: The value to be added to the stack.
+        - value: The value to be added to the queue.
         """
         new_node = Node(value)
-        new_node.next = self.top
-        self.top = new_node
+        if not self.front:
+            self.front = new_node
+            self.rear = new_node
+        else:
+            self.rear.next = new_node
+            self.rear = new_node
 
-    def pop(self):
+    def dequeue(self):
         """
-        Removes and returns the value from the top of the stack.
+        Removes and returns the value from the front of the queue.
 
         Returns:
-        - The value of the node removed from the top of the stack.
+        - The value of the node removed from the front of the queue.
 
         Raises:
-        - InvalidOperationError: If called on an empty stack.
+        - InvalidOperationError: If called on an empty queue.
         """
         if self.is_empty():
             raise InvalidOperationError("Method not allowed on empty collection")
-        value = self.top.value
-        self.top = self.top.next
+        value = self.front.value
+        self.front = self.front.next
         return value
 
     def peek(self):
         """
-        Returns the value of the node located at the top of the stack without removing it.
+        Returns the value of the node located at the front of the queue without removing it.
 
         Returns:
-        - The value of the node at the top of the stack.
+        - The value of the node at the front of the queue.
 
         Raises:
-        - InvalidOperationError: If called on an empty stack.
+        - InvalidOperationError: If called on an empty queue.
         """
         if self.is_empty():
             raise InvalidOperationError("Method not allowed on empty collection")
-        return self.top.value
+        return self.front.value
 
     def is_empty(self):
         """
-        Returns True if the stack is empty, False otherwise.
+        Returns True if the queue is empty, False otherwise.
         """
-        return self.top is None
+        return self.front is None
