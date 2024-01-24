@@ -2,6 +2,8 @@
 
 This challenge involves implementing a Queue using two Stack data structures. The goal is to understand and apply the concepts of basic data structures to simulate a queue operation using stacks.
 
+[Code](/code_challenges/stack_queue_pseudo.py)
+
 ## Whiteboard Process
 
 

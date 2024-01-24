@@ -1,10 +1,6 @@
 from data_structures.queue import Queue
 from data_structures.invalid_operation_error import InvalidOperationError
 
-from data_structures.queue import Queue
-from data_structures.invalid_operation_error import InvalidOperationError
-
-
 class Dog:
     """Represents a dog in the animal shelter.
 
