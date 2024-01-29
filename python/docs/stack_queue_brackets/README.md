@@ -52,4 +52,3 @@ print(validate_brackets("{(})"))  # FALSE
 **Examples in action:**
 - `validate_brackets("{{[[(())]]}}")` will return `True`.
 - `validate_brackets("{[(])}")` will return `False`.
-
