@@ -2,7 +2,7 @@
 
 ## Whiteboard Process
 
-*Imagine a whiteboard diagram showing the binary tree with various nodes and values. The diagram would illustrate the traversal process across the tree, highlighting the comparison of node values.*
+![Alt text](image.png)
 
 ## Approach & Efficiency
 
