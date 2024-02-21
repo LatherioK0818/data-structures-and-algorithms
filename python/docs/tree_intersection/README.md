@@ -8,6 +8,10 @@ In this challenge, the task is to find common values in two binary trees. The im
 
 ![alt text](image.png)
 
+# Code
+
+![Code](code_challenges\tree_intersection.py)
+
 ## Approach & Efficiency
 
 For the `tree_intersection` function, we utilize a Hashmap to store values from one binary tree and then traverse the other tree to find common values. This approach has a time complexity of O(n) where n is the total number of nodes in both trees. The space complexity is also O(n) due to the storage of values in the Hashmap.

@@ -6,31 +6,45 @@ def test_exists():
     assert left_join
 
 
-@pytest.mark.skip("TODO")
-def test_example():
-    synonyms = {
-        "diligent": "employed",
-        "fond": "enamored",
-        "guide": "usher",
-        "outfit": "garb",
-        "wrath": "anger",
-    }
-    antonyms = {
-        "diligent": "idle",
-        "fond": "averse",
-        "guide": "follow",
-        "flow": "jam",
-        "wrath": "delight",
-    }
-
+def test_left_join_returns_correct_structure():
+    # Setup
+    synonyms = {"diligent": "employed", "fond": "enamored", "guide": "usher"}
+    antonyms = {"diligent": "idle", "fond": "averse", "guide": "follow"}
     expected = [
-        ["fond", "enamored", "averse"],
-        ["wrath", "anger", "delight"],
         ["diligent", "employed", "idle"],
-        ["outfit", "garb", "NONE"],
-        ["guide", "usher", "follow"],
+        ["fond", "enamored", "averse"],
+        ["guide", "usher", "follow"]
     ]
 
+    # Exercise
     actual = left_join(synonyms, antonyms)
 
-    assert actual == expected
+    # Verify
+    assert actual == expected, "Should match the expected output structure and content"
+
+def test_left_join_handles_missing_antonyms():
+    # Setup
+    synonyms = {"outfit": "garb", "wrath": "anger"}
+    antonyms = {"wrath": "delight"}
+    expected = [
+        ["outfit", "garb", None],  # None for missing antonyms
+        ["wrath", "anger", "delight"]
+    ]
+
+    # Exercise
+    actual = left_join(synonyms, antonyms)
+
+    # Verify
+    assert actual == expected, "Should correctly handle missing antonyms with None"
+
+def test_left_join_with_empty_dictionaries():
+    # Setup
+    synonyms = {}
+    antonyms = {}
+    expected = []
+
+    # Exercise
+    actual = left_join(synonyms, antonyms)
+
+    # Verify
+    assert actual == expected, "Should handle empty dictionaries gracefully"
