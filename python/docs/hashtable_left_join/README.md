@@ -8,6 +8,11 @@ In this challenge, you are tasked with implementing a function that performs a "
 
 ![alt text](image.png)
 
+
+## Code
+
+[Code](python\code_challenges\hashtable_left_join.py)
+
 ## Approach & Efficiency
 
 The approach taken involves iterating through each key-value pair in the synonyms hash table, fetching the corresponding value from the antonyms hash table (if it exists), and then constructing a list that contains the key, its synonym, and its antonym or `None` if the antonym does not exist. This method ensures that all keys in the synonyms table are considered, and their related data from both tables are combined appropriately.
