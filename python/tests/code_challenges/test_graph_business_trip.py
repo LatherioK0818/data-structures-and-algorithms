@@ -1,74 +1,53 @@
 import pytest
-from data_structures.graph import Graph
-from code_challenges.graph_business_trip import direct_flights
-
-
-@pytest.mark.skip("TODO")
-def test_metroville_pandora(planets):
-    names = ["Metroville", "Pandora"]
-    assert direct_flights(planets, names) == (True, 82)
-
-
-@pytest.mark.skip("TODO")
-def test_metroville_monstropolis(planets):
-    names = ["Metroville", "New Monstropolis"]
-    assert direct_flights(planets, names) == (True, 105)
-
-
-@pytest.mark.skip("TODO")
-def test_arendelle_monstropolis_naboo(planets):
-    names = ["Arendelle", "New Monstropolis", "Naboo"]
-    assert direct_flights(planets, names) == (True, 115)
-
-
-@pytest.mark.skip("TODO")
-def test_naboo_pandora(planets):
-    names = ["Naboo", "Pandora"]
-    assert direct_flights(planets, names) == (False, 0)
-
-
-@pytest.mark.skip("TODO")
-def test_narnia_arendelle_naboo(planets):
-    names = ["Narnia", "Arendelle", "Naboo"]
-    assert direct_flights(planets, names) == (False, 0)
-
+from data_structures.graph import Graph  # Adjust the import statement based on your project structure
+from code_challenges.graph_business_trip import direct_flights  # Adjust the import statement based on your project structure
 
 @pytest.fixture
-def planets():
+def setup_graph():
     graph = Graph()
+    vertices = {}
 
-    metroville = graph.add_node("Metroville")
-    pandora = graph.add_node("Pandora")
-    arendelle = graph.add_node("Arendelle")
-    new_monstropolis = graph.add_node("New Monstropolis")
-    naboo = graph.add_node("Naboo")
-    narnia = graph.add_node("Narnia")
+    # Create vertices and store them in a dictionary for easy reference
+    for city in ["Metroville", "Pandora", "Arendelle", "New Monstropolis", "Naboo", "Narnia"]:
+        vertices[city] = graph.add_node(city)
 
-    graph.add_edge(pandora, arendelle, 150)
-    graph.add_edge(arendelle, pandora, 150)
+    # Add edges based on the provided test cases
+    graph.add_edge(vertices["Pandora"], vertices["Arendelle"], 150)
+    graph.add_edge(vertices["Pandora"], vertices["Metroville"], 82)
+    graph.add_edge(vertices["Metroville"], vertices["Arendelle"], 99)
+    graph.add_edge(vertices["New Monstropolis"], vertices["Arendelle"], 42)
+    graph.add_edge(vertices["New Monstropolis"], vertices["Metroville"], 105)
+    graph.add_edge(vertices["New Monstropolis"], vertices["Naboo"], 73)
+    graph.add_edge(vertices["Metroville"], vertices["Naboo"], 26)
+    graph.add_edge(vertices["Metroville"], vertices["Narnia"], 37)
+    graph.add_edge(vertices["Narnia"], vertices["Naboo"], 250)
 
-    graph.add_edge(pandora, metroville, 82)
-    graph.add_edge(metroville, pandora, 82)
+    return graph, vertices
 
-    graph.add_edge(metroville, arendelle, 99)
-    graph.add_edge(arendelle, metroville, 99)
+def test_add_edge(setup_graph):
+    graph, vertices = setup_graph
+    # Using the vertices from the fixture to ensure correct instances are referenced
+    arendelle_neighbors = graph.get_neighbors(vertices["Arendelle"])
+    assert ("Pandora", 150) in arendelle_neighbors
+    assert ("Metroville", 99) in arendelle_neighbors
+    assert ("New Monstropolis", 42) in arendelle_neighbors
 
-    graph.add_edge(new_monstropolis, arendelle, 42)
-    graph.add_edge(arendelle, new_monstropolis, 42)
+def test_get_neighbors(setup_graph):
+    graph, vertices = setup_graph
+    metroville_neighbors = graph.get_neighbors(vertices["Metroville"])
+    # Checking a few neighbors to ensure edges are correctly added
+    assert ("Pandora", 82) in metroville_neighbors
+    assert ("Arendelle", 99) in metroville_neighbors
+    assert ("Naboo", 26) in metroville_neighbors
 
-    graph.add_edge(new_monstropolis, metroville, 105)
-    graph.add_edge(metroville, new_monstropolis, 105)
+def test_direct_flights_possible(setup_graph):
+    graph, _ = setup_graph
+    # Direct flights test cases based on your requirements
+    assert direct_flights(graph, ["Metroville", "Pandora"]) == (True, 82)
+    assert direct_flights(graph, ["Arendelle", "New Monstropolis", "Naboo"]) == (True, 115)
 
-    graph.add_edge(new_monstropolis, naboo, 73)
-    graph.add_edge(naboo, new_monstropolis, 73)
-
-    graph.add_edge(metroville, naboo, 26)
-    graph.add_edge(naboo, metroville, 26)
-
-    graph.add_edge(metroville, narnia, 37)
-    graph.add_edge(narnia, metroville, 37)
-
-    graph.add_edge(narnia, naboo, 250)
-    graph.add_edge(naboo, narnia, 250)
-
-    return graph
+def test_direct_flights_impossible(setup_graph):
+    graph, _ = setup_graph
+    # Test cases where direct flights should not be possible
+    assert direct_flights(graph, ["Naboo", "Pandora"]) == (False, 0)
+    assert direct_flights(graph, ["Narnia", "Arendelle", "Naboo"]) == (False, 0)
